@@ -1,0 +1,212 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a {
+    text-decoration: none;
+    font-style: none;
+    color: white;
+}
+
+h1 {
+    font-size: 58px;
+    filter: drop-shadow(12px 15px 0px rgba(3, 3, 3, 0.7));
+}
+
+h3 {
+    font-size: 23px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    position: relative;
+    z-index: 2;
+    filter: drop-shadow(1px 1px 1px rgba(121, 141, 170, 0.7));
+}
+
+h2 {
+    font-size: 26px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 23px;
+    margin-left: 150px;
+    color: rgba(255, 255, 255, 0.404);
+    font-weight: normal;
+    position: relative;
+    z-index: 2;
+}
+
+h6 {
+    font-size: 16px;
+    margin-top: 100px;
+    margin-left: 150px;
+    color: rgb(255, 255, 255);
+    font-weight: inherit;
+    position: relative;
+    z-index: 2;
+}
+
+.nombre {
+    color: aliceblue;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+}
+
+#title_1 {
+    margin: 100px 150px;
+    color: rgba(255, 255, 255, 0.644);
+    font-weight: lighter;
+    position: relative;
+    z-index: 2;
+    margin-top: 50px;
+}
+
+#title_2 {
+    margin-left: 150px;
+    margin-top: -110px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+/*ESTILOS DEL HEADER*/
+body {
+    background-color: #080d16;
+}
+
+header {
+    background-color: #081730;
+    height: 90vh;
+    border-left: 150px;
+    border-radius: 0px 0px 1000px 0px;
+    filter: drop-shadow(5px 5px 5px rgba(121, 141, 170, 0.7));
+}
+
+header nav {
+    height: 75px;
+    margin-top: 38px;
+    float: right;
+    margin-right: 10px;
+
+}
+
+header nav li {
+    padding-right: 48px;
+    color: white;
+
+}
+
+ul {
+    display: inline-flex;
+
+}
+
+header .logo_main {
+    height: 100px;
+    margin-left: 120px;
+}
+
+header .equalizer_header {
+    height: 60%;
+    position: absolute;
+    z-index: 1;
+    top: 9%;
+    right: 15%;
+}
+
+header .phone_header {
+    height: 70%;
+    position: absolute;
+    z-index: 1;
+    top: 24%;
+    right: 10%;
+    filter: drop-shadow(0 10px 15px rgba(63, 8, 51, 0.7));
+}
+
+.app_store {
+    margin: 30px 0px 0px 150px;
+    height: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.logos_apps img {
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 12px;
+    box-shadow: -7px 22px 25px 0px rgba(0, 0, 0, 0.75);
+}
+
+.logos_apps .google {
+    margin-left: 35px;
+}
+
+/*Sección de servicios*/
+#services {
+    height: 100vh;
+    text-align: center;
+}
+
+.separador {
+    margin: 60px auto;
+}
+
+.cont_servi {
+    width: 80%;
+    height: 450px;
+    margin: 80px 0px 0px 10%;
+    display: inline-flex;
+}
+
+.uni_serv {
+    width: 25%;
+    height: 90%;
+    margin: 30px;
+}
+
+.uni_serv .box_icon {
+    height: 70px;
+    width: 70px;
+    background: #14142e;
+    border-radius: 18px;
+    margin: auto;
+    box-shadow: 5px 5px 10px 0px rgba(65, 63, 63, 0.75);
+}
+
+.box_icon img {
+    height: 55%;
+    vertical-align: middle;
+    margin: 15% auto;
+
+}
+
+.uni_serv .sub {
+    font-size: 22px;
+}
+
+.uni_serv p {
+    font-size: 22px;
+    margin: 30px 10px 15px 10px;
+    color: rgba(255, 255, 255, 0.315);
+}
+
+.uni_serv a {
+    color: #E600FF;
+    position: relative;
+    bottom: 0px;
+}
