@@ -1,0 +1,30 @@
+.punto_7_nav{
+    color: aliceblue;
+    background-color: rgb(232, 173, 240);
+    width: 800px;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+
+}
+
+.punto_7_nav ul {
+  display:inline-flex;
+}
+
+.punto_7_nav li {
+    padding: 12px;
+    list-style: none;
+    
+
+}
+.punto_7_nav li:hover {
+    background-color: blue  ;
+    }
+    .punto_7_nav a {
+        color: aliceblue;
+    }
