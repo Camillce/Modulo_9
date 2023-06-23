@@ -57,8 +57,7 @@ h6 {
     position: relative;
     z-index: 2;
 }
-
-.nombre {
+footer {
     color: aliceblue;
     position: fixed;
     bottom: 10px;
